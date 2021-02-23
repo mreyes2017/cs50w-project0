@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacto</title>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/indexLa.css">
+    <link rel="icon" href="img/ico.png">
+
+</head>
+
+<body>
+    <nav id="nav-b" class="navbar navbar-expand-lg navbar-dark  ">
+        <a class="navbar-brand text-light" href="index.html">
+            <img id="nav-a" src="http://cs50xni.code-fu.net.ni/img/CS50x.png" class="img-fluid" width="70" height="70" class="d-inline-block"
+                alt="">
+                P0-Web50x.ni
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav  ml-auto">
+                <a class="nav-item nav-link active text-light" href="index.html">Inicio</a>
+                <a class="nav-item nav-link text-light" href="bio.html">Bio</a>
+                <a class="nav-item nav-link text-light" href="acerca.html">Y21c1</a>
+                <a class="nav-item nav-link text-light" href="contacto.html">Contáctenos</a>
+               
+            </div>
+        </div>
+    </nav>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+        <br>
+        <br>
+        <br>
+        <br>
+       
+        
+<form class="formulario col-xs-12 col-sm-12 col-md-12 col-lg-12" name="addForm4">
+    <h2 class="cabeceraform">Contáctenos</h2>
+    <input id="txtNombre" onkeypress=" return SoloLetras(event)" onpaste="return false" class="in" type="text" autocomplete="off" autofocus name="Tu Nombre" placeholder="Tu Nombre">
+    <input id="txtCorreo" class="in" type="text" autocomplete="off" autofocus name="Correo Electronico"
+        placeholder="Correo electrónico  ">
+    <input id="txtNumero" class="in" type="text" onkeypress="return SoloNumeros(event)" onpaste="return false" autocomplete="off" autofocus name="Tu Numero" placeholder="Tu Numero">
+    <input id="txtAsunto" class="in" type="text" autocomplete="off" autofocus name="Asunto" placeholder="Asunto">
+    <textarea id="txtMensaje" class="in" name="Mensaje" placeholder="Escriba su mensaje"></textarea>
+
+    <div id="alerta4"></div>
+
+    <button class="bottom" onclick="validarContacto();" type="button">
+        Enviar
+    </button>
+</form>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+        <div class="color">
+            <div class="container text-right text-white">
+               
+                            <div class="card-body text-right">
+                                <a href="https://github.com/mreyes2017" target="_blank" class="text-decoration-none text-white"><h6 class="card-title mb-0">P0-Web50x.ni - © Copyright 2021 Mreyes</h6></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    
+
+
+                </div>
+            </div>
+        </div>
+    </div>      
+</body>
+<script type="text/javascript" src="../JS/ValidacionContacto.js"></script>
+</html>

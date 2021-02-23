@@ -1,13 +1,170 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    project0 - no subido aun, sigue local
+    <title>Inicio </title>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="estilos/indexLa.css">
+        <link rel="icon" href="img/ico.png">
+       
+</head>
+
+<body>
+    <nav id="nav-b" class="navbar navbar-expand-lg navbar-dark cabecera  ">
+        <a class="navbar-brand text-light" href="#">
+            <img id="nav-a" src="http://cs50xni.code-fu.net.ni/img/CS50x.png" class="img-fluid" width="70" height="70" class="d-inline-block"
+                alt="">
+            P0-Web50x.ni
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav  ml-auto">
+                <a class="nav-item nav-link active text-light" href="index.html">Inicio</a>
+                <a class="nav-item nav-link text-light" href="bio.html">Bio</a>
+                <a class="nav-item nav-link text-light" href="acerca.html">Y21c1</a>
+                <a class="nav-item nav-link text-light" href="contacto.html">Contáctenos</a>
+               
+            </div>
+        </div>
+    </nav>
+  
+<br><br>
+<div class="container">
+    <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 size" src="img/1.jpeg" alt="d1">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 size" src="img/2.jpeg" alt="d2">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 size" src="img/3.jpeg" alt="d3">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 size" src="img/4.jpeg" alt="d4">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 size" src="img/5.jpeg" alt="d5">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 size" src="img/6.jpeg" alt="d6">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+<br><br>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="container">
+      <div id="colors" class="jumbotron">
+            <section id="bienvenidos">
+                    <h2 class="text-center">BIENVENIDOS A MI PROJECT0</h2>
+                    <p class="text-center">He sido bendecido de encontrar gente más inteligente que yo, y ellos me ayudan a ejecutar la visión que tengo.</p>
+                    <h4 class="text-center">-Russell Simmons</h4>
+                </section>
+            
+
+      </div>
+  </div>
+</div>
+    <br> <br>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="portfolio-item mx-auto" data-toggle="modal">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/bio.jpg" alt="">
+                        <div class="card-body text-center">
+                            <a href="bio.html" class="text-decoration-none text-black">  <h6 class="card-title mb-0">Bio</h6></a>
+                        </div>
+                    </div>
+                </div>
+
+            
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="portfolio-item mx-auto" data-toggle="modal">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/po.PNG" alt="">
+                        <div class="card-body text-center">
+                            <a href="acerca.html" class="text-decoration-none text-black"><h6 class="card-title mb-0">Y21C1</h6></a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="portfolio-item mx-auto" data-toggle="modal">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-2x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/cont.jpg" alt="">
+                        <div class="card-body text-center">
+                            <a href="contacto.html" class="text-decoration-none text-black"><h6 class="card-title mb-0">Contáctenos</h6></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="color">
+            <div class="container text-right text-white">
+               
+                            <div class="card-body text-right">
+                                <a href="https://github.com/mreyes2017" target="_blank" class="text-decoration-none text-white"><h6 class="card-title mb-0">P0-Web50x.ni - © Copyright 2021 Mreyes</h6></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    
+
+
+                </div>
+            </div>
+        </div>
+    </div>      
 </body>
+
 </html>

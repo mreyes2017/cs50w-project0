@@ -1,0 +1,114 @@
+@charset "UTF-8";
+body footer, body .cabecera {
+  background-color: #50B8A0;
+  /*color de fondo*/
+}
+
+@media (max-width: 499px) {
+  body .cabecera  {
+    background-color: red;
+  }
+}
+
+@media (max-width: 499px) {
+  body footer {
+    background-color: red;
+  }
+}
+body {
+  margin: 0;
+  /*margen=0,significa que no tiene margen*/
+  font-family: Arial, Helvetica, sans-serif;
+  /*significa tipo de letra,similar al word*/
+  /*Selector de clase,Clase cabecera pero solo le estamos aplicando estilo alas etiquetas img de la clase cabecera*/
+  /*clase titulo*/
+  /*pseudo-clase en este caso hover(tocando)*/
+  /*clase pacman,referencia a la imagen del pacman*/
+  /*clase cabecera*/
+  /*clase menu*/
+  /*selector de elemento etiquetas a*/
+  /*cambiar estilos a la imagenes de la clase tabla*/
+  /*selector de id*/
+  /*selector de elemento etiqueta footer*/
+  /*cambiar estilo de la etiqueta p contenida en el footer*/
+  /*cambiar estilo de la tabla de clase imagenes*/
+  /*clase zoom*/
+  /*En esta parte se agrega la experiencia de usuario o UX*/
+  /*clases y selecterores de elementos en modo hover*/
+}
+body a {
+  margin-top: 30px;
+  font-size: 20px;
+  /*tamaño de fuente,similar al word*/
+  color: black;
+  /*color de la etiqueta*/
+  text-decoration: none;
+  /*quitar la decoracion de la etiqueta a*/
+}
+
+body .titulo {
+  /*por defecto todo esta alineado a la izquieda*/
+  text-align: center;
+  /*alinear texto, se puede tambien derecha(right) e izquerda(left)*/
+  /*transicion para que transform suceda en un intervalo de un segundo*/
+  transition: transform 1s;
+}
+body .titulo:hover {
+  transform: translatex(250px);
+}
+body .pacman {
+  width: 25px;
+  /*ancho*/
+  height: 25px;
+  /*alto*/
+}
+body .cabecera {
+  margin: 0;
+  position: fixed;
+  /*posicion fija, es decir no se movera*/
+}
+body .menu {
+  margin-top: 15px;
+  /*margen de arriba, simulando un espacio*/
+  float: right;
+  /*ya que es una estiqueta de bloque decimos que flote a la derecha, tambien se puede a la izquieda pero no al centro*/
+}
+body .tabla img {
+  height: 250px;
+  width: 250px;
+  margin-right: 10px;
+}
+body #logo {
+  margin-top: 5px;
+}
+body footer {
+  text-align: right;
+}
+body footer p {
+  margin: 0;
+  font-size: 30px;
+}
+body .imagenes table {
+  margin: 0 auto;
+  /*de esta forma se centra la tabla*/
+  text-align: center;
+}
+body .zoom {
+  transition: transform 0.5s;
+  /*decimos que para que ocurra la propiedad transform va a ocurrir en 0.5 segundos)*/
+}
+body .zoom:hover {
+  transform: scale(1.05);
+}
+body a:hover {
+  text-decoration: none;
+  color: gray;
+  cursor: pointer;
+  /*como va a estar el cursor en este caso seria una mano*/
+}
+body p:hover {
+  cursor: pointer;
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
