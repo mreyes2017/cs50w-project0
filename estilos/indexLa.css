@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 .banner {
     background-image: url("img/banner.png");
-   
+
    background-repeat: no-repeat;
    background-size: 100% 100%;
-  
+
 }
  #colors
  {
@@ -13,13 +13,13 @@
 
  @media (max-width: 499px) {
     #colors{
-      background-color: red;
+      background-color: #457e71;
     }
   }
-  
+
   @media (max-width: 499px) {
     #colors {
-      background-color: red;
+      background-color: #457e71;
     }
   }
 
@@ -41,15 +41,15 @@
    transform: translateX(600px);
    transform: translate3d(50px);
     background-repeat: no-repeat;
-   
-  
-  
+
+
+
 }
 
 .fixed-top {
     margin-left: 25px;
     font-size: 40px;
-    
+
 }
 .color
 {
@@ -58,7 +58,7 @@
 .nav {
     height: 60px;
     background-color: #50B8A0;
-  
+
 }
 .pos
 {

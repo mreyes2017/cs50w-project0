@@ -6,13 +6,13 @@ body footer, body .cabecera {
 
 @media (max-width: 499px) {
   body .cabecera  {
-    background-color: red;
+    background-color: #457e71;
   }
 }
 
 @media (max-width: 499px) {
   body footer {
-    background-color: red;
+    background-color:#457e71;
   }
 }
 body {
